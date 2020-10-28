@@ -1,0 +1,61 @@
+﻿<Window x:Class="HW_WPF_DataContext_Events.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW_WPF_DataContext_Events"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="625.573" Width="553.282">
+    <Grid>
+        <DockPanel Width="520" Height="250" Margin="0 0 0 320">
+            <StackPanel Margin="30" VerticalAlignment="Center" >
+
+                <DockPanel x:Name="colorPanel1" Width="300" VerticalAlignment="Center" Margin="10" Opacity="{Binding Value, ElementName=mySlider}" Visibility="Visible">
+                    <CheckBox x:Name="check1" Margin="0 5 5 0"></CheckBox>
+                    <Label DockPanel.Dock="Left" FontWeight="Bold">Alpha:</Label>
+                    <TextBox Text="{Binding ElementName=Alpha, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+                    <Slider Maximum="10" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" Name="Alpha" ValueChanged="OpacitySlider_ValueChanged" />
+                    
+                </DockPanel>
+
+                <DockPanel x:Name="colorPanel2" Width="300" VerticalAlignment="Center" Margin="10">
+                    <CheckBox x:Name="check2" Margin="0 5 5 0"></CheckBox>
+                    <Label DockPanel.Dock="Left" FontWeight="Bold">R:</Label>
+                    <TextBox Text="{Binding ElementName=slColorR, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+                    <Slider Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slColorR" ValueChanged="ColorSlider_ValueChanged" />
+                </DockPanel>
+
+                <DockPanel x:Name="colorPanel3" Width="300" VerticalAlignment="Center" Margin="10">
+                    <CheckBox x:Name="check3" Margin="0 5 5 0"></CheckBox>
+                    <Label DockPanel.Dock="Left" FontWeight="Bold">G:</Label>
+                    <TextBox Text="{Binding ElementName=slColorG, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+                    <Slider Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slColorG" ValueChanged="ColorSlider_ValueChanged" />
+                </DockPanel>
+
+                <DockPanel x:Name="colorPanel4" Width="300" VerticalAlignment="Center" Margin="10">
+                    <CheckBox x:Name="check4" Margin="0 5 5 0"></CheckBox>
+                    <Label DockPanel.Dock="Left" FontWeight="Bold">B:</Label>
+                    <TextBox Text="{Binding ElementName=slColorB, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+                    <Slider Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slColorB" ValueChanged="ColorSlider_ValueChanged" />
+                </DockPanel>
+
+            </StackPanel>
+
+            <StackPanel x:Name="resultColor" Width="60" Height="150" Background="White">
+
+            </StackPanel>
+
+        </DockPanel>
+
+        <DockPanel x:Name="test0" Width="520" Height="300" Margin="0 250 0 0">
+            <TextBox x:Name="test1" Text="testText" FontSize="24" FontWeight="Bold" Margin="0 5 0 0"></TextBox>
+            <TextBlock x:Name="test2" Background="Aqua" Width="228" Height="35" Margin="20,5,10,258"></TextBlock>
+            <Button x:Name="test3" Content="Delete" FontSize="20" Width="118" Height="35" Margin="0 5 0 0" VerticalAlignment="Top"/>
+        </DockPanel>
+
+    </Grid>
+
+
+
+
+</Window>

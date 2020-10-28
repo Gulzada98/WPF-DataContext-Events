@@ -1,0 +1,15 @@
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events.csprojAssemblyReference.cache
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\MainWindow.g.cs
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\App.g.cs
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events_MarkupCompile.cache
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events_MarkupCompile.lref
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\bin\Debug\HW_WPF_DataContext_Events.exe.config
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\bin\Debug\HW_WPF_DataContext_Events.exe
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\bin\Debug\HW_WPF_DataContext_Events.pdb
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\MainWindow.baml
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events.g.resources
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events.Properties.Resources.resources
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events.csproj.GenerateResource.cache
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events.csproj.CoreCompileInputs.cache
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events.exe
+C:\Users\Zhanibek\source\repos\HW_WPF_DataContext_Events\HW_WPF_DataContext_Events\obj\Debug\HW_WPF_DataContext_Events.pdb
